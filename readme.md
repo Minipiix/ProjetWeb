@@ -1,5 +1,9 @@
 ## Laravel PHP Framework
 
+!!! Je crois qu il manque un fichier il faut que tu l upload, un truc pour de la configuration !!! 
+PS: Il faudra bien penser qu il faudra faire une API dans le rendu c est hyper important. pour faire un json etc...
+
+
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
