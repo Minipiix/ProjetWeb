@@ -1,12 +1,12 @@
 #!/bin/bash
-# Script qui permet d importer le www dans le dossier pour le git
+# Script qui permet d importer les dossiers du git  dans le dossier www
 
 
 echo ------------------------
 echo Copie des dossiers de ProjetWeb vers WWW
 
 echo Effectue une save de WWW 
-sudo cp -R /var/www wwwAutoSave
+sudo cp -R /var/www /var/wwwAutoSave
 
 
 echo Copie de app vers www
