@@ -1,5 +1,9 @@
 ## Laravel PHP Framework
 
+
+NEWS: Alors en premiere page il y a un parallax qui roxe du poney, normal qu'on tombe pas sur ta page mais suffit de remettre la bonne route ! :D Une bonne chose de faite
+
+
 !!! Je crois qu il manque un fichier il faut que tu l upload, un truc pour de la configuration !!! 
 PS: Il faudra bien penser qu il faudra faire une API dans le rendu c est hyper important. pour faire un json etc...
 
