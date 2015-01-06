@@ -6,17 +6,17 @@ echo ------------------------
 echo Copie des dossiers de ProjetWeb vers WWW
 
 echo Effectue une save de WWW 
-sudo cp -R /var/www /var/wwwAutoSave
+sudo cp -pR /var/www /var/wwwAutoSave
 
 
 echo Copie de app vers www
-sudo cp -R /home/potetoes/Bureau/ProjetWeb/app /var/www
+sudo cp -pR /home/potetoes/Bureau/ProjetWeb/app /var/www
 
 echo Droit de public 777
 sudo chmod -R 777 public
 
 echo Copie de public vers www
-sudo cp -R /home/potetoes/Bureau/ProjetWeb/public /var/www/
+sudo cp -pR /home/potetoes/Bureau/ProjetWeb/public /var/www/
 
 
 
