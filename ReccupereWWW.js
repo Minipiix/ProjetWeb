@@ -5,6 +5,9 @@
 echo ------------------------
 echo Copie des dossiers de www vers dossier de git
 
+rm -R app
+rm -R public 
+
 echo Copie de app
 sudo cp -Rp /var/www/app /home/potetoes/Bureau/ProjetWeb
 
