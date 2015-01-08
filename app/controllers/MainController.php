@@ -17,9 +17,22 @@ class MainController extends BaseController {
 
 	public function showWelcome()
 	{
-		//return View::make('enter');
-		return View::make('index');
+return View::make('index');
+		//return View::make('lastBooks');
+		//return View::make('registration');
 	}
+
+	public function registerFunction()
+	{
+		return View::make('registration');
+	}
+	public function introFunction()
+	{
+		return View::make('intro');
+	}
+
+
+
 	
 	public function showHelp()
 	{

@@ -11,11 +11,13 @@
 |
 */
 
-Route::get('register', function()
-{
-  return View::make('registration');
-});
+
 Route::get('/', 'MainController@showWelcome');
+Route::get('registration', 'MainController@registerFunction');
+Route::get('intro', 'MainController@introFunction');
+
+
+
 Route::get('help', 'MainController@showHelp');
 Route::get('livres', 'MainController@showLivres');
 Route::get('auteur', 'MainController@showAuteur');
