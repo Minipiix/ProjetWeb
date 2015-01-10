@@ -15,15 +15,11 @@
 Route::get('/', 'MainController@showWelcome');
 Route::get('registration', 'MainController@registerFunction');
 Route::get('intro', 'MainController@introFunction');
+Route::get('lastBooks', 'MainController@lastBooksFunction');
+Route::get('login', 'MainController@loginFunction');
+Route::get('registration', 'MainController@registrationFunction');
+Route::get('about', 'MainController@aboutFunction');
 
-
-
-Route::get('help', 'MainController@showHelp');
-Route::get('livres', 'MainController@showLivres');
-Route::get('auteur', 'MainController@showAuteur');
-Route::get('collection', 'MainController@showCollection');
-Route::get('blog', 'MainController@showBlog');
-Route::get('top_Auteur', 'MainController@showTopAuteur');
 
 
 

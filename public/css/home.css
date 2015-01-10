@@ -1,3 +1,68 @@
+
+@section('styles')
+          body {
+            padding-top: 60px;
+          }
+          @show
+
+          .centered-form .panel{
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+            color: #4e5d6c;
+
+          }
+
+          body{
+
+            background-color: rgb(161,161,161);
+            background-image:url("http://www.euromoldes.com.br/site/web/images/background2.jpg");
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: left;
+          }
+
+
+          .centered-form{
+            margin-top: 60px;
+          }
+
+          .pull-right{
+           text-align= right;
+         }
+
+         .carousel{
+           margin-top: 40px;
+         }
+
+
+        .alertBox .panel-default{
+          margin-top: 60px;
+          width: 100%;
+          box-shadow: 1px 1px 12px #555;
+        }
+
+        .centered-form .panel-heading{
+          background: rgba(74,112,139, 0.8);
+          color: white;
+        }
+        
+.registreBox{
+
+    text-align: center;
+    margin-top: 30px;
+    
+  }
+
+        .page-header{
+          text-align: left;
+          margin-left: 5%;
+          margin-right: 5%;
+
+        }
+
+
+
 .footer {
 	position: absolute;
 	bottom: 0;
@@ -7,6 +72,29 @@
 
   padding: 20px 0;
 }
+
+div#ecrivain {
+  background-image: url(../img/hugo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+margin-left: auto;
+  margin-right: auto;
+
+  width: 100px;
+  height: 100px;
+  padding: 0;
+}
+
+.panel-default {
+border-radius: 10px;
+}
+
+.boxImageEcrivain{
+
+	text-align: center;
+}
+
 
 .body{
 	min-height:100%;

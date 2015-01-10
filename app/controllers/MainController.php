@@ -17,50 +17,33 @@ class MainController extends BaseController {
 
 	public function showWelcome()
 	{
-return View::make('index');
-		//return View::make('lastBooks');
-		//return View::make('registration');
+		return View::make('index');
 	}
 
-	public function registerFunction()
-	{
-		return View::make('registration');
-	}
 	public function introFunction()
 	{
 		return View::make('intro');
 	}
 
+	
+	public function aboutFunction()
+	{
+		return View::make('about');
+	}
+	
 
+	public function lastBooksFunction()
+	{
+		return View::make('lastBooks');
+	}
 
-	
-	public function showHelp()
+	public function registrationFunction()
 	{
-		return View::make('help');
+		return View::make('registration');
 	}
-	
-	public function showLivres()
+
+	public function loginFunction()
 	{
-		return View::make('livres');
-	}
-	
-	public function showAuteur()
-	{
-		return View::make('auteur');
-	}
-	
-	public function showCollection()
-	{
-		return View::make('collection');
-	}
-	
-	public function showBlog()
-	{
-		return View::make('blog');
-	}
-	
-		public function showTopAuteur()
-	{
-		return View::make('top_Auteur');
+		return View::make('login');
 	}
 }
