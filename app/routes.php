@@ -13,7 +13,7 @@
 
 
 Route::get('/', 'MainController@showWelcome');
-Route::get('intro', 'MainController@introFunction');
+Route::get('home', 'MainController@homeFunction');
 Route::get('lastBooks', 'MainController@lastBooksFunction');
 Route::get('about', 'MainController@aboutFunction');
 Route::get('registration', 'MainController@registrationFunction');

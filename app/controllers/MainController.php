@@ -17,12 +17,12 @@ class MainController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('pages.home');
+		return View::make('pages.intro');
 	}
 
-	public function introFunction()
+	public function homeFunction()
 	{
-		return View::make('pages.intro');
+		return View::make('pages.home');
 	}
 
 	

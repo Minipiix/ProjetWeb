@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-book" aria-hidden="true" ></span>
+              <a class="navbar-brand" href="home"><span class="glyphicon glyphicon-book" aria-hidden="true" ></span>
                  MiniBiblio 
               </a>
             </div>
@@ -17,14 +17,14 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a class="navbar-brand" href="intro"><span class="glyphicon glyphicon-th-large" aria-hidden="true">
+                <li class="introClass"><a class="navbar-brand" href="/"><span class="glyphicon glyphicon-th-large" aria-hidden="true">
                   Intro |
                 </span></a></li>
-                <li class="active"><a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home" aria-hidden="true">
+                <li class="homeClass"><a class="navbar-brand" href="home"><span class="glyphicon glyphicon-home" aria-hidden="true">
                   Home 
                 </span></a></li>
-                <li><a href="lastBooks">Les Derniers Livres</a></li>
-                <li><a href="about">About us</a></li>
+                <li class="lastBooksClass"><a href="lastBooks">Les Derniers Livres</a></li>
+                <li class="aboutClass"><a href="about">About us</a></li>
 
               </ul>
 
@@ -43,11 +43,11 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-cog" aria-hidden="true"> Register/Login</span><span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="registration">Register</a></li>
-                  <li><a href="login">Login</a></li>
+                  <li class="registerClass"><a href="registration">Register</a></li>
+                  
 
                   <li class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
+                  <li class="loginClass"><a href="login">Login</a></li>
                 </ul>
               </li>
             </ul>

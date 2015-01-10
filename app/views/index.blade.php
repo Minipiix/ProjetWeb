@@ -51,6 +51,13 @@
           }
 
 
+          body .{
+
+
+          }
+
+
+
           .centered-form{
             margin-top: 60px;
           }

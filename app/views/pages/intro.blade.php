@@ -3,6 +3,21 @@
 
 
 
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+$( "li" ).addClass(function( index, currentClass ) {
+  var addedClass;
+ 
+  if ( currentClass === "introClass" ) {
+    addedClass = "active";
+  }
+ 
+  return addedClass;
+});
+</script>
+
+
 <body class="loading">
 
 

@@ -2,8 +2,24 @@
 @section('content')
 
 
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+$( "li" ).addClass(function( index, currentClass ) {
+  var addedClass;
+ 
+  if ( currentClass === "homeClass" ) {
+    addedClass = "active";
+  }
+ 
+  return addedClass;
+});
+</script>
+
 <!-- Container -->
 <div class="container-fluid">
+
 
 	<hr>
 

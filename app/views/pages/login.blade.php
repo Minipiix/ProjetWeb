@@ -2,6 +2,21 @@
 @section('content')
 
 
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+$( "li" ).addClass(function( index, currentClass ) {
+  var addedClass;
+ 
+  if ( currentClass === "loginClass" ) {
+    addedClass = "active";
+  }
+ 
+  return addedClass;
+});
+</script>
+
 <!-- ------------------------------------------------------------- -->
 
           <!-- Container -->
@@ -44,7 +59,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="register" >Don't have an account? Register</a>
+        <a href="registration" >Don't have an account? Register</a>
       </div>
     </div>
   </div>

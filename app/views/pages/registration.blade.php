@@ -2,6 +2,20 @@
 @section('content')
 
 
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+$( "li" ).addClass(function( index, currentClass ) {
+  var addedClass;
+ 
+  if ( currentClass === "registrationClass" ) {
+    addedClass = "active";
+  }
+ 
+  return addedClass;
+});
+</script>
+
 <!-- ------------------------------------------------------------- -->
 
     <!-- Container -->
