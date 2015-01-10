@@ -112,8 +112,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-                MiniBiblio 
+              <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-book" aria-hidden="true" ></span>
+                 MiniBiblio 
               </a>
             </div>
 
@@ -285,7 +285,7 @@
 
               <div class="row" >
 
-                
+
 
                 <div class="col-md-8">
                   <div class="well well-lg">
@@ -350,8 +350,8 @@
               <!-- ------------------------------------------------------------- -->
 
               <!-- Scripts are placed here -->
-              {{ HTML::script('js/bootstrap.min.js') }}
               {{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
+              {{ HTML::script('js/bootstrap.min.js') }}
 
 
             </body>

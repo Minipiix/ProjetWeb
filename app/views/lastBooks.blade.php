@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>
-    MiniBiblio
-  </title>
-  <meta charset="utf-8">
+        <head>
+          <title>
+            MiniBiblio
+          </title>
+          <meta charset="utf-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
   <!-- ------------------------------------------------------------- -->
@@ -26,7 +25,12 @@
 
   <!-- ------------------------------------------------------------- -->
 
+
+
+
+
   <style>
+
   @section('styles')
   body {
     padding-top: 60px;
@@ -84,6 +88,8 @@
 
 
   <!-- ------------------------------------------------------------- -->
+
+
 
 
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -286,9 +292,9 @@
 <!-- ------------------------------------------------------------- -->
 
 <!-- Scripts are placed here -->
-{{ HTML::script('js/bootstrap.js') }}
-{{ HTML::script('js/bootstrap.min.js') }}
+
 {{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
+{{ HTML::script('js/bootstrap.min.js') }}
 
 
 </body>

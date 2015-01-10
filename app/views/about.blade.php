@@ -252,9 +252,10 @@ Récemment, Microsoft a également annoncé la disponibilité d'une pré-version
           <!-- ------------------------------------------------------------- -->
 
           <!-- Scripts are placed here -->
-          {{ HTML::script('js/bootstrap.min.js') }}
-          {{ HTML::script('js/bootstrap.min.js') }}
-          {{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
+
+{{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
+{{ HTML::script('js/bootstrap.min.js') }}
+
 
 
         </body>

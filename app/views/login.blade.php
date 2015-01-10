@@ -182,16 +182,13 @@
 
           </div>
 
-          <!-- Scripts are placed here -->
-  	{{ HTML::script('js/bootstrap.min.js') }}
-  	{{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
-    {{ HTML::script('js/bootstrap.js') }}
+<!-- Scripts are placed here -->
+
+{{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
+{{ HTML::script('js/bootstrap.min.js') }}
 
 
-  <!--
-  	<script src="js/vendor/jquery-1.9.1.min.js"><script>
-  	<script src="js/bootstrap.min.js"><script>
-  -->
+ 
       </body>
   </html>
 
