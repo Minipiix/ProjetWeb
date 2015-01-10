@@ -350,7 +350,7 @@
               <!-- ------------------------------------------------------------- -->
 
               <!-- Scripts are placed here -->
-              {{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
+                            {{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
               {{ HTML::script('js/bootstrap.min.js') }}
 
 
