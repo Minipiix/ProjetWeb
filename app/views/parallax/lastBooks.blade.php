@@ -75,6 +75,7 @@
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
+
   }
 
 
@@ -292,7 +293,6 @@
 <!-- ------------------------------------------------------------- -->
 
 <!-- Scripts are placed here -->
-            padding-top: 60px;
 
 {{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
 {{ HTML::script('js/bootstrap.min.js') }}

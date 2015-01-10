@@ -17,7 +17,7 @@
       {{ HTML::style('css/bootstrap.css') }}
       {{ HTML::style('css/bootstrap-theme.css') }}
       {{ HTML::style('css/carousel.css') }}
-      {{ HTML::style('css/home.css') }}
+  {{ HTML::style('css/home.css') }}
 
 
       <!-- ------------------------------------------------------------- -->
@@ -47,9 +47,9 @@
 
       }
 
-      .centered-form{
-        margin-top: 60px;
-      }
+       .centered-form{
+    margin-top: 60px;
+  }
 
       .pull-right{
         text-align= right;
@@ -61,10 +61,10 @@
       }
 
       hr{
-        margin-left: 5%;
-        margin-right: 5%;
+      margin-left: 5%;
+    margin-right: 5%;
 
-      }
+  }
 
       </style>
 
@@ -143,7 +143,7 @@
     <!-- Container -->
     <div class="container-fluid">
 
-      <hr>
+<hr>
 
       <div class="row centered-form">
         <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
@@ -192,28 +192,28 @@
         </div>
       </div>
     </div>
-    <!-- ------------------------------------------------------------ -->
+        <!-- ------------------------------------------------------------ -->
 
-    <hr>
+        <hr>
 
-    <!-- Scripts are placed here -->
+       <!-- Scripts are placed here -->
 
-    {{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
-    {{ HTML::script('js/bootstrap.min.js') }}
-
-
-  </body>
-
-  <footer >
-   <div class="panel panel-body" style="padding-top:0%;">
-    <a href="#top">
-      <img src="img/ico_top.png" >
-    </a>
-  </div>
-</footer>
+{{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
+{{ HTML::script('js/bootstrap.min.js') }}
 
 
-</html>
+        </body>
+
+       <footer >
+       <div class="panel panel-body" style="padding-top:0%;">
+        <a href="#top">
+                  <img src="img/ico_top.png" >
+        </a>
+        </div>
+      </footer>
+
+
+        </html>
 
 
 

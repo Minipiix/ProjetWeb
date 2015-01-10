@@ -37,8 +37,8 @@
             background: rgba(255, 255, 255, 0.8);
             box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
             color: #4e5d6c;
-          }
 
+          }
 
           body{
 
@@ -61,6 +61,8 @@
 
          .carousel{
            margin-top: 40px;
+
+
          }
 
 
@@ -85,6 +87,7 @@
         hr{
           margin-left: 5%;
           margin-right: 5%;
+
         }
 
         </style>

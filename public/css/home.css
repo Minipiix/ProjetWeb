@@ -1,75 +1,107 @@
-
-@section('styles')
-          body {
-            padding-top: 60px;
-          }
-          @show
-
-          .centered-form .panel{
-            background: rgba(255, 255, 255, 0.8);
-            box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
-            color: #4e5d6c;
-
-          }
-
-          body{
-
-            background-color: rgb(161,161,161);
-            background-image:url("http://www.euromoldes.com.br/site/web/images/background2.jpg");
-            background-repeat:no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-            text-align: left;
-            min-height:100%;
-  position: relative;
-          }
-
-
-          .centered-form{
+.centered-form{
             margin-top: 60px;
           }
+.logbox{
+            margin-top: 80px;
+          }
 
-          .pull-right{
-           text-align= right;
-         }
+.centered-form .panel{
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+  color: #4e5d6c;
+}
 
-         .carousel{
+
+  .centered-form .panel-heading{
+        background: rgba(38,38,38, 0.8);
+  color: white;
+  }
+
+
+body{
+  padding-top: 50px;
+  background-color: rgb(161,161,161);
+  background-image:url("http://www.euromoldes.com.br/site/web/images/background2.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: left;
+  min-height:100%;
+  position: relative;
+}
+
+.loading{
+  padding-top: 10px;
+
+
+}
+
+.pull-right{
+ text-align= right;
+}
+
+.carousel{
+ margin-top: 40px;
+}
+
+
+.alertBox .panel-default{
+  margin-top: 50px;
+  width: 100%;
+  box-shadow: 1px 1px 12px #555;
+}
+
+.introbox .panel-default{
+  width: 100%;
+border-color: black;
+    box-shadow: 1px 1px 12px #555;
+
+}
+
+
+.registreBox{
+
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.page-header{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.carousel{
            margin-top: 40px;
          }
 
+div#ecrivain {
+  background-image: url(../img/hugo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  margin-left: auto;
+  margin-right: auto;
 
-        .alertBox .panel-default{
-          margin-top: 60px;
-          width: 100%;
-          box-shadow: 1px 1px 12px #555;
-        }
+  width: 100px;
+  height: 100px;
+  padding: 0;
+}
 
-        .centered-form .panel-heading{
-          background: rgba(74,112,139, 0.8);
-          color: white;
-        }
-        
-.registreBox{
 
-    text-align: center;
-    margin-top: 30px;
-    
-  }
+.boxImageEcrivain{
 
-        .page-header{
-          text-align: left;
-          margin-left: 5%;
-          margin-right: 5%;
-
-        }
-
+	text-align: center;
+}
 
 
 footer {
-	position: fixed;
+  position: fixed;
   bottom: 0px;
   height: 40px;
-  	width: 100%;
+  width: 100%;
   text-align: center;
 }
 
@@ -79,25 +111,14 @@ footer .panel-body{
 
 }
 
-div#ecrivain {
-  background-image: url(../img/hugo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-margin-left: auto;
-  margin-right: auto;
+hr{
+          margin-left: 5%;
+          margin-right: 5%;
 
-  width: 100px;
-  height: 100px;
-  padding: 0;
-}
+        }
 
-.panel-default {
-border-radius: 10px;
-}
+/* ************************************* */
 
-.boxImageEcrivain{
 
-	text-align: center;
-}
+    
 

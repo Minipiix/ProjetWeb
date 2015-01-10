@@ -17,33 +17,33 @@ class MainController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('index');
+		return View::make('pages.home');
 	}
 
 	public function introFunction()
 	{
-		return View::make('intro');
+		return View::make('pages.intro');
 	}
 
 	
 	public function aboutFunction()
 	{
-		return View::make('about');
+		return View::make('pages.about');
 	}
 	
 
 	public function lastBooksFunction()
 	{
-		return View::make('lastBooks');
+		return View::make('pages.lastBooks');
 	}
 
 	public function registrationFunction()
 	{
-		return View::make('registration');
+		return View::make('pages.registration');
 	}
 
 	public function loginFunction()
 	{
-		return View::make('login');
+		return View::make('pages.login');
 	}
 }
