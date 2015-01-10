@@ -20,6 +20,8 @@
             background-size: cover;
             background-attachment: fixed;
             text-align: left;
+            min-height:100%;
+  position: relative;
           }
 
 
@@ -63,14 +65,18 @@
 
 
 
-.footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
+footer {
+	position: fixed;
+  bottom: 0px;
+  height: 40px;
+  	width: 100%;
   text-align: center;
+}
 
-  padding: 20px 0;
+
+footer .panel-body{
+  background: rgba(37,37,37,0.8);
+
 }
 
 div#ecrivain {
@@ -95,8 +101,3 @@ border-radius: 10px;
 	text-align: center;
 }
 
-
-.body{
-	min-height:100%;
-	position: relative;
-}

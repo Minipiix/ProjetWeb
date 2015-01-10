@@ -18,6 +18,7 @@
          {{ HTML::style('css/bootstrap.css') }}
          {{ HTML::style('css/bootstrap-theme.css') }}
          {{ HTML::style('css/carousel.css') }}
+  {{ HTML::style('css/home.css') }}
 
 
   <!-- ------------------------------------------------------------- -->
@@ -186,6 +187,15 @@
 
 {{ HTML::script('js/vendor/jquery-1.9.1.min.js') }}
 {{ HTML::script('js/bootstrap.min.js') }}
+
+
+      <footer >
+       <div class="panel panel-body" style="padding-top:0%;">
+        <a href="#top">
+                  <img src="img/ico_top.png" >
+        </a>
+        </div>
+      </footer>
 
 
  

@@ -51,13 +51,14 @@
   }
 
   body{
-
     background-color: rgb(161,161,161);
     background-image:url("http://www.euromoldes.com.br/site/web/images/background2.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
     text-align: left;
+               
+
   }
 
 
@@ -298,6 +299,15 @@
 
 
 </body>
+
+
+      <footer >
+       <div class="panel panel-body" style="padding-top:0%;">
+        <a href="#top">
+                  <img src="img/ico_top.png" >
+        </a>
+        </div>
+      </footer>
 
 
 
