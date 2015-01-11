@@ -30,6 +30,13 @@ body{
   position: relative;
 }
 
+body .modal-dialog {
+
+width: 70%;
+margin-top: 13%;
+
+}
+
 .loading{
   padding-top: 10px;
 
@@ -53,6 +60,8 @@ body{
 
 .introbox .panel-default{
   width: 100%;
+  border: 0px solid;
+    border-radius: 25px;
 border-color: black;
     box-shadow: 1px 1px 12px #555;
 
