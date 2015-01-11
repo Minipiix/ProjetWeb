@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-    
+
 
 
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
@@ -8,11 +8,11 @@
 <script>
 $( "li" ).addClass(function( index, currentClass ) {
   var addedClass;
- 
+  
   if ( currentClass === "lastBooksClass" ) {
     addedClass = "active";
   }
- 
+  
   return addedClass;
 });
 </script>
@@ -103,30 +103,36 @@ $( "li" ).addClass(function( index, currentClass ) {
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>Lord of the ring I</td>
+                    <td>J. R. R. Tolkien</td>
+                    <td>@potetoes</td>
                   </tr>
                   <tr>
                     <td>2</td>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>Lord of the ring II</td>
+                    <td>J. R. R. Tolkien</td>
+                    <td>@potetoes</td>
                   </tr>
                   <tr>
                     <td>3</td>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <td>Lord of the ring III</td>
+                    <td>J. R. R. Tolkien</td>
+
+                    <td>@potetoes</td>
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <td>Eragon</td>
+                    <td>Christopher Paolini</td>
+
+                    <td>@MiniPiix</td>
                   </tr>
                   <tr>
                     <td>5</td>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <td>Harry Potter</td>
+                    <td>J. K. Rowling</td>
+
+                    <td>@MiniPiix</td>
                   </tr>
                 </tbody>
               </table>

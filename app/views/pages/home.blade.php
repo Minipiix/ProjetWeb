@@ -15,7 +15,13 @@ $( "li" ).addClass(function( index, currentClass ) {
  
   return addedClass;
 });
+
+$(function () { $("[data-toggle='popover']").popover(); });
+
+
 </script>
+
+
 
 <!-- Container -->
 <div class="container-fluid">
@@ -122,7 +128,7 @@ $( "li" ).addClass(function( index, currentClass ) {
 					</div>
 				</div>
 
-				<!-- ------------------------------ Premiere box d'actu ------------------------------ -->
+				<!-- ------------------------------ Premier article - 1ere box ------------------------------ -->
 
 
 
@@ -149,6 +155,9 @@ $( "li" ).addClass(function( index, currentClass ) {
 							</div>
 						</div><!--.col -->
 
+					<!-- -------------------------- 2eme Box ---------------------------------- -->
+
+
 						<div class="col-md-4">
 							<div class="panel panel-default" style="text-align: center;">
 								<div class="panel-body">
@@ -162,6 +171,10 @@ $( "li" ).addClass(function( index, currentClass ) {
 										Les moteurs de recherche comme Google et Yahoo mais aussi les réseaux sociaux comme Facebook, Twitter et LinkedIn utilisent Hadoop. En effet ils ont des besoins d'exécution d'informations non structurées de très gros volumes pour traiter les flux, les mesages, etc... Sur la partie e-commerce, eBay exploite aussi le framework. Il est aussi intégré par un grand nombre de services de Cloud Computing. On compte parmi eux Amazon qui permet de faire tourner Hadoop sur ses services de plate-forme Amazon EC2 et de stockage Amazon S3. Le géant de l'e-commerce a d'ailleurs rendu son propre système de fichiers (S3 filesystem) compatible avec Hadoop. 
 										Récemment, Microsoft a également annoncé la disponibilité d'une pré-version d'Hadoop pour son Cloud Azure. Des spécialistes du Cloud, comme Rackspace sont également de la partie (ce dernier a recours à Cloudera, une distribution Hadoop bien connue).
 									</p>
+
+								
+
+
 								</div>
 							</div>
 						</div><!--./row -->
@@ -169,6 +182,8 @@ $( "li" ).addClass(function( index, currentClass ) {
 					</div><!--./container -->
 
 					<hr>
+
+					
 
 
 					<!-- ------------------------------------------------------------- -->
